@@ -7,6 +7,5 @@ def get_multiplied_digits(number):
             product *= int(digit)          # умножаем ее на текущее значение произведения
     return product                         # Возвращаем произведение цифр
 
-# Пример использования функции
 print(get_multiplied_digits(40203))   # Выведет: 24
 print(get_multiplied_digits(402030))  # Выведет: 24
